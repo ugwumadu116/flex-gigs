@@ -1,0 +1,23 @@
+{
+  "name": "flex-gigs",
+  "version": "1.0.0",
+  "description": "Flex Gigs is an online freelance services marketplace for entrepreneurs to create a business at affordable price. With Flex Gigs users can sell there services or buy a service from a freelancer at an affordable price.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugwumadu116/flex-gigs.git"
+  },
+  "author": "Joel Ugwumadu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ugwumadu116/flex-gigs/issues"
+  },
+  "homepage": "https://github.com/ugwumadu116/flex-gigs#readme",
+  "dependencies": {
+    "sweetalert2": "^8.11.6"
+  }
+}
