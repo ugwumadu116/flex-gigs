@@ -11,39 +11,25 @@
         "description": "I am a web developer. And I can develop your website in two days",
         "languages": "English",
         "skills": ["web design", "web developer", "Social Media Design"],
-        "certification": ["freeCodeCamp web design", "google design"]
+        "certification": ["freeCodeCamp web design", "google design"],
+        "service": "log design",
+        "price": "342"
       }
     },
     {
       "id": 2,
-      "firstName": "admin",
-      "lastName": "admin",
-      "email": "admin@gmail.com",
-      "password": "admin12345",
+      "firstName": "john",
+      "lastName": "smith",
+      "email": "johnsmith@gmail.com",
+      "password": "john1234",
       "profile": {
         "description": "I am a web developer. And I can develop your website in two days",
         "languages": "English",
         "skills": ["web design", "web developer", "Social Media Design"],
-        "certification": ["freeCodeCamp web design", "google design"]
+        "certification": ["freeCodeCamp web design", "google design"],
+        "service": "web design",
+        "price": "234"
       }
-    }
-  ],
-  "gigs": [
-    {
-      "id": 1,
-      "users": 1,
-      "title": "web design1",
-      "image": "./image/web_design.png",
-      "price": "234",
-      "description": "this gig will change your life forever"
-    },
-    {
-      "id": 2,
-      "users": 1,
-      "title": "logo design",
-      "image": "./image/logo_design1.png",
-      "price": "234",
-      "description": "this gig will change your life forever"
     }
   ]
 }
