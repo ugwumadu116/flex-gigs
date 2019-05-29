@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "joel",
+      "lastName": "ugwumadu",
+      "email": "joelugwumadu@gmail.com",
+      "password": "12345joel",
+      "gigs": 1,
+      "profile": {
+        "description": "I am a web developer. And I can develop your website in two days",
+        "languages": "English",
+        "skills": ["web design", "web developer", "Social Media Design"],
+        "certification": ["freeCodeCamp web design", "google design"]
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "admin",
+      "lastName": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin12345",
+      "profile": {
+        "description": "I am a web developer. And I can develop your website in two days",
+        "languages": "English",
+        "skills": ["web design", "web developer", "Social Media Design"],
+        "certification": ["freeCodeCamp web design", "google design"]
+      }
+    }
+  ],
+  "gigs": [
+    {
+      "id": 1,
+      "users": 1,
+      "title": "web design1",
+      "image": "./image/web_design.png",
+      "price": "234",
+      "description": "this gig will change your life forever"
+    },
+    {
+      "id": 2,
+      "users": 1,
+      "title": "logo design",
+      "image": "./image/logo_design1.png",
+      "price": "234",
+      "description": "this gig will change your life forever"
+    }
+  ]
+}
