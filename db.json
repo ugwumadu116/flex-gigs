@@ -4,23 +4,9 @@
       "id": 1,
       "firstName": "joel",
       "lastName": "ugwumadu",
-      "email": "joelugwumadu@gmail.com",
+      "email": "ugwumadu116@gmail.com",
       "password": "12345joel",
-      "profile": {
-        "description": "I am a web developer. And I can develop your website in two days",
-        "languages": "English",
-        "skills": [
-          "web design",
-          "web developer",
-          "Social Media Design"
-        ],
-        "certification": [
-          "freeCodeCamp web design",
-          "google design"
-        ],
-        "service": "log design",
-        "price": "342"
-      }
+      "confirmPassword": "12345joel"
     },
     {
       "id": 2,
@@ -28,28 +14,38 @@
       "lastName": "smith",
       "email": "johnsmith@gmail.com",
       "password": "john1234",
-      "profile": {
-        "description": "I am a web developer. And I can develop your website in two days",
-        "languages": "English",
-        "skills": [
-          "web design",
-          "web developer",
-          "Social Media Design"
-        ],
-        "certification": [
-          "freeCodeCamp web design",
-          "google design"
-        ],
-        "service": "web design",
-        "price": "234"
-      }
+      "confirmPassword": "john1234"
     },
     {
-      "firstName": "csdcascsac",
-      "lastName": "dascasca",
+      "firstName": "cdscscds",
+      "lastName": "dvssdvs",
       "password": "ugwumadu116",
-      "email": "ugwumadu116@gmail.com",
+      "email": "admin@gmail.com",
       "id": 3
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "iOS Developer",
+      "skills": [
+        "logo design",
+        "ios developer"
+      ],
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/65.jpg",
+      "description": "Hi, my name is Yevgeny Oborin (English translation is Jack) and I am professional iOS Developer from Russia, who loves making beautiful, outstanding apps. I have over 4 years of experience in software development and developed a range of applications from image-editing apps to location and social-based apps with content feeds, real-time messaging and commenting features. My #1 goal will always be to meet your needs and deadline. And if you're looking for a person who not 'just writes code', you're in right place. I developed own applications and I know every part of mobile development cycle from idea to publishing, and I can help to develop your great idea. I have experience developing own backend using BaaS solutions like Parse, Firebase. Please contact me and we will discuss how to make your app"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "title": "Web and Graphic Designer",
+      "skills": [
+        "info-graphic design",
+        "logo design"
+      ],
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/6.jpg",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
     }
   ]
 }

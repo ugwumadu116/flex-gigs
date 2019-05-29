@@ -14,8 +14,7 @@ $(".login-form").submit(e => {
     );
     if (user) {
       Swal.fire("Good job!", "Welcome back!", "success");
-      localStorage.setItem("user", JSON.stringify(user));
-      window.location.replace("dashboard.html");
+      window.location.replace("freelancers.html");
     } else {
       Swal.fire({
         type: "error",
