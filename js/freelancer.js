@@ -54,70 +54,20 @@ $(document).ready(async () => {
   getClick();
 });
 
+let { name } = JSON.parse(localStorage.getItem("user"));
+let setUser = name.split("")[0] || "?";
+$(".firstName").text(setUser);
 const getClick = () => {
   let newArr = $(".view-user").toArray();
   $.each(newArr, function(i, val) {
     let id = i + 1;
     $(`#${id}`).click(() => {
       let singleUser = myUsers.find(userDetals => userDetals.id === id);
-      //console.log(singleUser);
       showUser(singleUser);
     });
-    //console.log();
   });
 };
 
-// $(".single-car-content").html(`
-//   <article>
-//   <img src=${user.imageUrl} alt="car">
-//   <div class="car-name">
-//       <h3>${user.firstName}</h3>
-//       <h3>$${user.price}m</h3>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">NAME : </div>
-//       <div class="car-info-val">
-//           <h3>${user.description}</h3>
-//       </div>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">STATE : </div>
-//       <div class="car-info-val">
-//           <h3>${user.email}</h3>
-//       </div>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">STATUS : </div>
-//       <div class="car-info-val">
-//           <h3>${user.skill}</h3>
-//       </div>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">MODEL : </div>
-//       <div class="car-info-val">
-//           <h3>${user.price}</h3>
-//       </div>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">OWNER : </div>
-//       <div class="car-info-val">
-//           <h3>${user.price}</h3>
-//       </div>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">DATE : </div>
-//       <div class="car-info-val">
-//           <h3>${user.price}</h3>
-//       </div>
-//   </div>
-//   <div class="single-car-item">
-//       <div class="car-info">BODY TYPE : </div>
-//       <div class="car-info-val">
-//           <h3>${user.price}</h3>
-//       </div>
-//   </div>
-//   </article>
-//   `);
 const showUser = user => {
   $(".single-car-content").html(`
   <article>
@@ -146,14 +96,7 @@ const showUser = user => {
           <h3>${user.skill}</h3>
       </div>
   </div>
-  <div class="single-car-item">
-      <div class="car-info">PRICE : </div>
-      <div class="car-info-val">
-          <h3>${user.price}</h3>
-      </div>
-  </div>
-  <div class="single-car-item">
-      
+  <div class="single-car-item">      
           <h3>${user.description}</h3>
       </div>
   </div>
