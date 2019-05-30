@@ -40,8 +40,9 @@ $("#sign-up").submit(e => {
           contentType: "application/json",
           data: formData
         }).done(function(data) {
-          localStorage.setItem("user", JSON.stringify(data.id));
-          window.location.replace("freelancers.html");
+          let storeUser = { id: data.id, name: data.firstName };
+          localStorage.setItem("user", JSON.stringify(storeUser));
+          window.location.href = "freelancers.html";
         });
       }
     });

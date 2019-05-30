@@ -14,7 +14,7 @@ $(".login-form").submit(e => {
     );
     if (user) {
       Swal.fire("Good job!", "Welcome back!", "success");
-      window.location.replace("freelancers.html");
+      window.location.href = "freelancers.html";
     } else {
       Swal.fire({
         type: "error",

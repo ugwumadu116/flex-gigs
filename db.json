@@ -5,46 +5,61 @@
       "firstName": "joel",
       "lastName": "ugwumadu",
       "email": "ugwumadu116@gmail.com",
-      "password": "12345joel",
-      "confirmPassword": "12345joel"
+      "password": "12345joel"
     },
     {
       "id": 2,
       "firstName": "john",
       "lastName": "smith",
       "email": "johnsmith@gmail.com",
-      "password": "john1234",
-      "confirmPassword": "john1234"
+      "password": "john1234"
     },
     {
-      "firstName": "cdscscds",
-      "lastName": "dvssdvs",
-      "password": "ugwumadu116",
-      "email": "admin@gmail.com",
+      "firstName": "john",
+      "lastName": "kimly",
+      "password": "12345john",
+      "email": "john@gmail.com",
       "id": 3
+    },
+    {
+      "firstName": "jimy",
+      "lastName": "calm",
+      "password": "12345john",
+      "email": "jimy@gmail.com",
+      "id": 4
     }
   ],
-  "profile": [
+  "profiles": [
     {
-      "id": "1",
-      "userId": "1",
-      "title": "iOS Developer",
-      "skills": [
-        "logo design",
-        "ios developer"
-      ],
+      "id": 1,
+      "userId": 1,
+      "price": "23",
+      "skill": "iOS Developer",
       "imageUrl": "https://randomuser.me/api/portraits/med/men/65.jpg",
       "description": "Hi, my name is Yevgeny Oborin (English translation is Jack) and I am professional iOS Developer from Russia, who loves making beautiful, outstanding apps. I have over 4 years of experience in software development and developed a range of applications from image-editing apps to location and social-based apps with content feeds, real-time messaging and commenting features. My #1 goal will always be to meet your needs and deadline. And if you're looking for a person who not 'just writes code', you're in right place. I developed own applications and I know every part of mobile development cycle from idea to publishing, and I can help to develop your great idea. I have experience developing own backend using BaaS solutions like Parse, Firebase. Please contact me and we will discuss how to make your app"
     },
     {
-      "id": "2",
-      "userId": "2",
-      "title": "Web and Graphic Designer",
-      "skills": [
-        "info-graphic design",
-        "logo design"
-      ],
+      "id": 2,
+      "userId": 2,
+      "price": "94",
+      "skill": "Web and Graphic Designer",
       "imageUrl": "https://randomuser.me/api/portraits/med/men/6.jpg",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "price": "14",
+      "skill": "Graphic Designer",
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/12.jpg",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "price": "54",
+      "skill": "React Developer",
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/8.jpg",
       "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
     }
   ]
