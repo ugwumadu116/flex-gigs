@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flex-Gigs - profile</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/sweetalert2/dist/sweetalert2.css"
+    />
+    <link rel="stylesheet" href="./css/profile.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbar">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </a>
+        <a href="./freelancers.html" class="cart-btn">freelancer</a>
+        <a href="./profile.html">
+          <div class="user">
+            <span class="firstName">j</span>
+          </div>
+        </a>
+      </div>
+    </nav>
+    <header>
+      <div class="banner">
+        <h1>Profile</h1>
+      </div>
+    </header>
+    <section id="profile">
+      <div class="create-profile">
+        <button class="create">create profile</button>
+      </div>
+      <div class="profile-container"></div>
+    </section>
+
+    <div class="sell-car-overlay">
+      <div class="sell-car">
+        <span class="close-profile">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Profile</h2>
+        <div class="sell-car-content">
+          <form id="create-profile" enctype="multipart/form-data">
+            <div class="input-group">
+              <label>Skill</label>
+              <input
+                type="text"
+                id="skill"
+                placeholder="Enter your profession eg: web developer"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label>Image</label>
+              <input
+                type="text"
+                id="img"
+                name="image-file"
+                required
+                placeholder="Enter your profile image url"
+              />
+            </div>
+            <div class="input-group">
+              <label>Price per hour</label>
+              <input
+                type="number"
+                id="price"
+                required
+                placeholder="Enter the amount your charge per hour"
+              />
+            </div>
+            <div class="input-group">
+              <label>Description of service you offer</label>
+              <textarea
+                name="description"
+                id="description"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <div class="input-group-submit">
+              <button type="submit" class="btn-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/profile.js"></script>
+  </body>
+</html>
