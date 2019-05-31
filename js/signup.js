@@ -42,6 +42,9 @@ $("#sign-up").submit(e => {
         }).done(function(data) {
           let storeUser = { id: data.id, name: data.firstName };
           localStorage.setItem("user", JSON.stringify(storeUser));
+          // setTimeout(function() {
+          //   window.location.href = "freelancers.html";
+          // }, 3000);
           window.location.href = "freelancers.html";
         });
       }

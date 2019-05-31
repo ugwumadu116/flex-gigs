@@ -13,8 +13,13 @@ $(".login-form").submit(e => {
       item => item.email === email && item.password === password
     );
     if (user) {
+      let storeUser = { id: user.id, name: user.firstName };
+      localStorage.setItem("user", JSON.stringify(storeUser));
       Swal.fire("Good job!", "Welcome back!", "success");
-      window.location.href = "freelancers.html";
+      setTimeout(function() {
+        window.location.href = "freelancers.html";
+      }, 3000);
+      //window.location.href = "freelancers.html";
     } else {
       Swal.fire({
         type: "error",

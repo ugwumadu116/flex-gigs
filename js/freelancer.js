@@ -51,7 +51,7 @@ $(document).ready(async () => {
     `);
     }
   });
-  getClick();
+  await getClick();
 });
 
 let { name } = JSON.parse(localStorage.getItem("user"));
