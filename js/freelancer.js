@@ -2,7 +2,7 @@ let myUsers = [];
 $(document).ready(async () => {
   let users = await $.ajax({
     method: "GET",
-    url: "http://localhost:3000/users?_embed=profiles&_embed=skills",
+    url: "http://localhost:3000/users?_embed=profiles",
     dataType: "json"
   });
   const simplifiedUser = users.map(item => {
@@ -60,9 +60,13 @@ $(".firstName").text(setUser);
 const getClick = () => {
   let newArr = $(".view-user").toArray();
   $.each(newArr, function(i, val) {
-    let id = i + 1;
-    $(`#${id}`).click(() => {
-      let singleUser = myUsers.find(userDetals => userDetals.id === id);
+    let userID = i + parseInt($(".view-user").attr("id"));
+    $(`#${userID}`).click(() => {
+      let singleUser = myUsers.find(userDetails => {
+        if (userDetails !== undefined) {
+          return userDetails.id === userID;
+        }
+      });
       showUser(singleUser);
     });
   });

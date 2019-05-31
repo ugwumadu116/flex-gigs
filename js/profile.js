@@ -48,7 +48,8 @@ $(document).ready(async () => {
   </div>
     `);
   }
-  await getButton();
+  await getUpdateButton();
+  await getDeleteButton();
 });
 
 $(".create").click(() => {
@@ -98,7 +99,7 @@ $(".close-profile2").click(() => {
 });
 
 // update
-const getButton = () => {
+const getUpdateButton = () => {
   $(".update").click(() => {
     $("#skill2").val(myUser.profiles[0].skill);
     $("#img2").val(myUser.profiles[0].imageUrl);
@@ -122,15 +123,31 @@ const getButton = () => {
       price,
       description
     });
-    //console.log(formData);
+    //console.log(myUser, myUser.profiles[0].id);
     $.ajax({
       method: "PATCH",
-      url: `http://localhost:3000/profiles/${myUser.id}`,
+      url: `http://localhost:3000/profiles/${myUser.profiles[0].id}`,
       dataType: "json",
       contentType: "application/json",
       data: formData
     }).done(function(data) {
-      console.log(data);
+      Swal.fire(
+        "Good job!",
+        "You have successfully updated your profile",
+        "success"
+      );
+    });
+  });
+};
+
+// delete
+const getDeleteButton = () => {
+  $(".delete").click(() => {
+    $.ajax({
+      method: "DELETE",
+      url: `http://localhost:3000/profiles/${myUser.profiles[0].id}`,
+      dataType: "json"
+    }).done(function(data) {
       Swal.fire(
         "Good job!",
         "You have successfully updated your profile",
