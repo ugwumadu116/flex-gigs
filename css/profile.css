@@ -148,6 +148,7 @@ nav {
 
 .delete {
   background: #bc3a80;
+  cursor: pointer;
   padding: 5px;
   font-size: 1.4rem;
   color: #f2f2f2;
@@ -164,6 +165,7 @@ nav {
 }
 .create {
   background: #2dc26f;
+  cursor: pointer;
   padding: 5px;
   font-size: 1.4rem;
   color: #f2f2f2;
@@ -177,6 +179,7 @@ nav {
 }
 .update {
   background: #2dc26f;
+  cursor: pointer;
   padding: 5px;
   font-size: 1.4rem;
   color: #f2f2f2;
