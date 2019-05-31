@@ -143,16 +143,24 @@ const getUpdateButton = () => {
 // delete
 const getDeleteButton = () => {
   $(".delete").click(() => {
-    $.ajax({
-      method: "DELETE",
-      url: `http://localhost:3000/profiles/${myUser.profiles[0].id}`,
-      dataType: "json"
-    }).done(function(data) {
-      Swal.fire(
-        "Good job!",
-        "You have successfully updated your profile",
-        "success"
-      );
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!"
+    }).then(result => {
+      if (result.value) {
+        $.ajax({
+          method: "DELETE",
+          url: `http://localhost:3000/profiles/${myUser.profiles[0].id}`,
+          dataType: "json"
+        }).done(function(data) {
+          Swal.fire("Deleted!", "Your file has been deleted.", "success");
+        });
+      }
     });
   });
 };
