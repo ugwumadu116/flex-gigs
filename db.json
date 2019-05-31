@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "joel",
+      "lastName": "ugwumadu",
+      "email": "ugwumadu116@gmail.com",
+      "password": "12345joel"
+    },
+    {
+      "id": 2,
+      "firstName": "john",
+      "lastName": "smith",
+      "email": "johnsmith@gmail.com",
+      "password": "john1234"
+    },
+    {
+      "firstName": "john",
+      "lastName": "kimly",
+      "password": "12345john",
+      "email": "john@gmail.com",
+      "id": 3
+    },
+    {
+      "firstName": "jimy",
+      "lastName": "calm",
+      "password": "12345john",
+      "email": "jimy@gmail.com",
+      "id": 4
+    }
+  ],
+  "profiles": [
+    {
+      "id": 2,
+      "userId": 2,
+      "price": "94",
+      "skill": "Web and Graphic Designer",
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/6.jpg",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "price": "14",
+      "skill": "Graphic Designer",
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/12.jpg",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "price": "54",
+      "skill": "React Developer",
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/8.jpg",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. My Portfolio: jayjaro.com I have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time."
+    },
+    {
+      "userId": 1,
+      "skill": "figma design",
+      "imageUrl": "https://randomuser.me/api/portraits/med/men/3.jpg",
+      "price": "23434",
+      "description": "With 20 years of experience in web and graphic designs. I created many design solutions that have high visual impact. I develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives. \n\nMy Portfolio: jayjaro.com\n\nI have an up-to-date knowledge of industry software including Adobe and Corel brands and easily redefine a design brief within the constraints of cost and time. \n\nI'm EXPERT at the following areas: \nWeb and Mobile mockups\nLogo and Stationery Design\nWeb banners\nBrochure and Flyer Design\nIcons, Favicons and Customized buttons\nOnline newsletters\neBook Design\nBillboard and Exhibit Tarpaulin\nMagazine and Newspaper Advert\nT-shirt Design\nAnimated Flash banners\nInfographics\nPhoto Editing\n\nHere are some of my client's feedback:\n\n\"Highly effective communication and can take directions well, and turn your ideas into something great.\" - Mobile project\n\n\"Goes above and beyond to get a design project done. Communicates well, and can put himself in the mind of the user and develop well-thought out designs.\" -Landing page project\n\n\"Jay's work is always top quality. His turnaround on jobs is impressive and his communication skills are excellent. Jay has done a wide range of jobs for us and for our clients; he can follow specific directions meticulously or provide creative solutions with little guidance.\" -LOGO project\n\nI am open to do projects that involved developing innovative and technically challenging print, multimedia, web templates, identity, and program graphics.",
+      "id": 5
+    }
+  ]
+}

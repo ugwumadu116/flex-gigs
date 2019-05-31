@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flex-Gigs - login</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/sweetalert2/dist/sweetalert2.css"
+    />
+    <link rel="stylesheet" href="./css/signup.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="nav-btn">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="./index.html" class="logo">
+        <img src="./images/logo.svg" alt="logo"
+      /></a>
+
+      <ul class="main-nav" id="nav-link">
+        <li class="login">
+          <a href="./login.html" class="nav-links login-link">LOGIN</a>
+        </li>
+        <li class="sign-up">
+          <a href="./signup.html" class="nav-links sign-up-link">SIGN UP</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="login-section">
+      <div class="login-container">
+        <h1 class="login-text">Login <span class="access">here!</span></h1>
+        <form class="login-form">
+          <div class="input-group">
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              id="email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label>Password</label>
+            <input
+              type="password"
+              maxlength="16"
+              minlength="6"
+              name="pwd"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <button type="submit" class="btn-submit">LOGIN</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
